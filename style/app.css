@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif , monospace;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 46, 54);
+}
+.main{
+    
+   
+    overflow-y: hidden;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 80px;
+    background:rgb(18, 24, 28) ;
+    padding: 2.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.navbar .logo{
+    font-weight: 700;
+    color: aqua;
+    
+    transition: .3s;
+    
+  
+}
+.navbar .logo:hover{
+    border-radius: 15px;
+    /* font-size: 1.8rem; */
+    color: aqua;
+    box-shadow: 0px -1px 4px 2px aqua ;
+   padding: 5px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 25px;
+   
+}
+.navbar ul li a{
+    color: rgb(138, 43, 226);
+    font-weight: 500;
+    transition: .3s;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+.home{
+   
+    min-height: 100vh;
+}
+.home .main-img{
+    background-color: rgb(34, 46, 54);
+    opacity:.2;
+    width: auto;
+    height: 100vh;
+}
+.main-img .img{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(138, 43, 226, 0.5)),
+                  url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+
+}
+
+.about-me
+{
+    background: rgb(18, 24, 28);
+    padding: 100px 2.5rem 0 2.5rem;
+    overflow: hidden;
+    
+}
+.about-me .about-sidebar{
+   
+    color: aqua;
+    float: left;
+    width: 50%;
+    padding: 100px 5px  5px ;
+}
+.about-sidebar .header{
+    margin-bottom: 40px;
+    border-bottom: .2rem solid black;
+    letter-spacing: 0.05rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.about-sidebar .bio p{
+    padding:  15px 0;
+    width: 100%;
+    text-align:justify;
+    
+}
+
+.about-img{
+    float: right;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-img img{
+ width:400px;
+ height:400px;
+ border-radius: 50%;
+ 
+}
+.education{
+    margin-top: 20px;
+    display: flex;
+    float:inline-end;
+}
+.about-sidebar .education{
+    padding-top: 20px;
+    
+}
+.main-education h2{
+    color: aqua;
+    font-weight: 700;
+    font-size: larger;
+    margin: 25px 0 0 0;
+    border-bottom:  .1rem solid aqua;
+    width: 20%;
+}
+
+.education div{
+    height: 180px;
+    border-radius: 5px;
+    border: .1rem solid aqua;
+    margin: 10px 0 ;
+    padding: 10px 5px;
+    color: aliceblue;
+}
+
+div .year{
+    margin-bottom: 10px;
+    font-weight:700 ;
+}
+div .course{
+    margin-bottom: 8px;
+    border-bottom: .1rem solid aqua;
+    color: aqua;
+}
+.education div p{
+    margin-bottom: 8px;
+}
+.contact{
+    height: 100vh;
+    padding-top: 200px;
+}
+.leftsidebar{
+    float: left;
+  
+
+    width: 60%;
+    padding-left:40px ;
+    
+}
+.leftsidebar .top{
+    display: flex;
+    justify-content: space-between;
+}
+.address h2{
+    margin: 15px 0 ;
+    border-bottom: .1rem solid aqua;
+    color: aqua;
+}
+.contact-me{
+    margin-top: 50px;
+    width:35%;
+}
+.contact-me p{
+    color: aqua;
+    margin-bottom: 10px;
+    border-bottom: .1rem solid aqua;
+    width: 100%;
+}
+.media{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.media .icons{
+    margin-right: 10px;
+    
+}
+.icons i{
+    font-size: 50px;
+    transition: .2s;
+}
+.icons i:hover{
+    color: aqua;
+}
+.additional-links{
+    width: 60%;
+   
+}
+.additional-links form{
+    border-left: .2rem solid aqua;
+    padding-left: 20px;
+    
+   
+}
+.additional-links input{
+    display: block;
+    width:100% ;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius:20px;
+    padding:  0 20px;
+    border: .2rem solid aqua;
+}
+.additional-links div{
+    width: 100%;
+}
+.additional-links .names{
+    display: flex;
+}
